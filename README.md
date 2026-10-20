@@ -26,8 +26,8 @@ project/
 ```
 
 ## 🚀 Hướng dẫn cài đặt
-##Bước 1: Tạo file JavaScript
-##Tạo file ```js/protection.js``` và thêm toàn bộ đoạn code sau:
+## Bước 1: Tạo file JavaScript
+## Tạo file ```js/protection.js``` và thêm toàn bộ đoạn code sau:
 
 ```
 (function () {
@@ -64,13 +64,13 @@ project/
 })();
 ```
 
-##Bước 2: Nhúng vào file HTML
-##Thêm dòng sau ngay trước thẻ ```</body>``` của mỗi file HTML cần áp dụng:
+## Bước 2: Nhúng vào file HTML
+## Thêm dòng sau ngay trước thẻ ```</body>``` của mỗi file HTML cần áp dụng:
 ```
 <script src="./js/protection.js"></script>
 ```
 
-##Ví dụ:
+## Ví dụ:
 ```
 <!DOCTYPE html>
 <html lang="vi">
@@ -88,7 +88,7 @@ project/
 </html>
 ```
 
-##Bước 3: Áp dụng cho toàn bộ website
+## Bước 3: Áp dụng cho toàn bộ website
 Nếu website có nhiều trang HTML, hãy nhúng file protection.js vào tất cả các trang cần bảo vệ.
 Ví dụ:
 ```
@@ -97,7 +97,7 @@ about.html
 contact.html
 ```
 Nếu các trang sử dụng chung template, bạn có thể thêm đoạn nhúng vào template để không cần lặp lại thủ công.
-##🔐 Làm rối mã nguồn JavaScript
+## 🔐 Làm rối mã nguồn JavaScript
 Bạn có thể sử dụng các công cụ sau để làm code khó đọc hơn:
 - JavaScript Obfuscator — làm rối mã JavaScript.
 - Terser — minify và tối ưu JavaScript.
@@ -110,7 +110,7 @@ Bạn có thể sử dụng các công cụ sau để làm code khó đọc hơn
 4. Đưa các file đã xử lý lên hosting.
 5. Kiểm tra lại website trên máy tính và điện thoại.
 
-##⚠️ Giới hạn bảo vệ
+## ⚠️ Giới hạn bảo vệ
 Đây chỉ là biện pháp hạn chế truy cập cơ bản, không thể bảo vệ mã nguồn tuyệt đối.
 Người dùng vẫn có thể:
 - Mở DevTools thông qua menu trình duyệt hoặc các công cụ khác.
