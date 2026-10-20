@@ -2,14 +2,14 @@
 ## Công cụ hỗ trợ hạn chế xem mã nguồn website bằng cách chặn một số phím tắt phổ biến, chuột phải và kết hợp làm rối mã JavaScript.
 
 ## ✨ Tính năng
-🚫 Chặn phím F12.
-🚫 Chặn Ctrl + U.
-🚫 Chặn Ctrl + Shift + I.
-🚫 Chặn Ctrl + Shift + J.
-🚫 Chặn Ctrl + Shift + C.
-🚫 Chặn chuột phải.
-🚫 Chặn thao tác kéo thả nội dung.
-🔒 Hỗ trợ kết hợp Minify và Obfuscate JavaScript.
+🚫 Chặn phím F12.  
+🚫 Chặn Ctrl + U.  
+🚫 Chặn Ctrl + Shift + I.  
+🚫 Chặn Ctrl + Shift + J.  
+🚫 Chặn Ctrl + Shift + C.  
+🚫 Chặn chuột phải.  
+🚫 Chặn thao tác kéo thả nội dung.  
+🔒 Hỗ trợ kết hợp Minify và Obfuscate JavaScript.  
 🌐 Dễ dàng tích hợp vào website HTML nhiều trang.
 
 
