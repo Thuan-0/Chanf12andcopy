@@ -11,7 +11,9 @@ Công cụ hỗ trợ hạn chế xem mã nguồn website bằng cách chặn m�
 🚫 Chặn chuột phải.
 🔒 Hỗ trợ kết hợp Minify và Obfuscate JavaScript.
 🌐 Dễ dàng tích hợp vào website HTML nhiều trang.
-📂 Cấu trúc thư mục
+## 📂 Cấu trúc thư mục
+
+```text
 project/
 ├── index.html
 ├── about.html
@@ -19,6 +21,7 @@ project/
 │   └── style.css
 └── js/
     └── protection.js
+```
 
 🚀 Hướng dẫn cài đặt
 Bước 1: Tạo file JavaScript
