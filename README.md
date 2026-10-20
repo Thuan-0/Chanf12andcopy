@@ -103,7 +103,7 @@ Bạn có thể sử dụng các công cụ sau để làm code khó đọc hơn
 - Terser — minify và tối ưu JavaScript.
 - CSS Minifier — nén CSS.
 
-##Quy trình thực hiện
+## Quy trình thực hiện
 1. Hoàn thiện và kiểm thử code gốc.
 2. Sao lưu mã nguồn ban đầu.
 3. Minify hoặc obfuscate các file JavaScript cần phân phối.
