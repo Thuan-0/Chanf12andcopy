@@ -1,0 +1,34 @@
+
+/* ==========================================
+   CHỐNG MỞ DEVTOOLS CƠ BẢN
+   ========================================== */
+
+// Chặn F12, Ctrl + Shift + I/J/C, Ctrl + U
+document.addEventListener("keydown", function (e) {
+    const key = e.key.toLowerCase();
+
+    if (
+        key === "f12" ||
+        (e.ctrlKey && e.shiftKey && ["i", "j", "c"].includes(key)) ||
+        (e.ctrlKey && key === "u") ||
+        (e.ctrlKey && e.shiftKey && key === "k") ||
+        (e.metaKey && e.altKey && ["i", "j", "c"].includes(key)) ||
+        (e.metaKey && key === "u")
+    ) {
+        e.preventDefault();
+        e.stopPropagation();
+        showToast("💕 Hãy tận hưởng món quà dành tặng Mẹ nhé!");
+        return false;
+    }
+}, true);
+
+// Chặn chuột phải
+document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+    showToast("🌷 Chúc Mẹ luôn vui vẻ và hạnh phúc!");
+}, true);
+
+// Chặn kéo thả nội dung
+document.addEventListener("dragstart", function (e) {
+    e.preventDefault();
+}, true);

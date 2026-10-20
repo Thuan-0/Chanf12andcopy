@@ -1,0 +1,6 @@
+window.onload = function () {
+    initPetals();
+    renderFlowers();
+    animateCanvas();
+};
+</script>
