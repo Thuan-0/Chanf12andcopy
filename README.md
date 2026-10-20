@@ -12,6 +12,7 @@ Hướng dẫn tích hợp các biện pháp bảo vệ mã nguồn cơ bản ch
 📱 Có thể tích hợp vào website nhiều trang.
 Lưu ý: Đây chỉ là các biện pháp hạn chế truy cập thông thường, không thể ngăn chặn hoàn toàn việc xem hoặc sao chép mã nguồn trên trình duyệt.
 📁 Cấu trúc thư mục gợi ý
+
 my-website/
 ├── index.html
 ├── about.html
